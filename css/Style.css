@@ -1,0 +1,121 @@
+.navbar.navcolor {
+    background-color: #52b7008d !important;
+}
+.search-color:focus {
+        border-color: #BF9264 !important;
+        box-shadow: 0 0 0 0.25rem rgba(255, 153, 0, 0.25) !important;
+        outline: 0;
+}
+
+
+.submit-button:hover{
+    background-color: #bf9264 !important ;
+    color: black !important;
+}
+
+.title{
+    font-family: 'Brush Script MT', !important;
+    font-size: 30px !important;
+    color: white !important;
+}
+
+.hero {
+    background: url("https://images.unsplash.com/photo-1636525653613-2a3a05c00759?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") center/cover no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.hero-glass {
+    background: rgba(255, 255, 255, 0.19);
+    backdrop-filter: blur(10px);           
+    -webkit-backdrop-filter: blur(10px);  
+    border-radius: 20px;
+    padding: 40px;
+    max-width: 700px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+}
+
+.hero-glass h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.hero-glass p {
+    font-size: 1.25rem;
+    color: #eee;
+}
+
+.margin-left{
+    margin-left: 20px !important;
+}
+
+.navbar-nav-centered {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.image-frame {
+    border: 1px solid #2a5d004a; /* Green border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 5px; /* Space between image and border */
+    height: 270px; /* Fixed height */
+    width: 250px; /* Fixed width */
+    object-fit: cover;
+    background-color: white;
+
+    
+}
+.card-color {
+    background-color: rgba(29, 110, 0, 0.218);
+    background: rgba(9, 73, 0, 0.067) !important;
+    backdrop-filter: blur(10px);           
+    -webkit-backdrop-filter: blur(10px);  
+    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+
+}
+.Product1 {
+    color: rgb(255, 235, 207) !important;
+
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    min-height: 200px !important;
+    border-radius: 10px !important;
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20240702/pngtree-variety-of-healthy-grains-and-seeds-in-a-wooden-box-image_15846306.jpg");
+}
+
+.Product2 {
+    color: rgb(188, 255, 205) !important;
+    border-radius: 10px !important;
+
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    align-items: center !important;
+    min-height: 200px !important;
+    background-image: url("https://t4.ftcdn.net/jpg/14/20/27/81/360_F_1420278105_qPNwYL9W87IbwE5YmSiEDGimrJfJaHns.jpg");
+}
+
+.Product3 {
+    color: #9ea2ff !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    align-items: center !important;
+    min-height: 200px !important;
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20240410/pngtree-flower-pots-watering-can-and-garden-tools-on-white-countertop-image_15654357.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+        border-radius: 10px !important;
+
+}
+
+
+.card{
+    margin-top: 14px !important;
+}
