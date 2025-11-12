@@ -26,6 +26,7 @@
     align-items: center;
     justify-content: center;
     position: relative;
+    z-index: -1;
 }
 
 .hero-glass {
@@ -69,6 +70,19 @@
 
     
 }
+
+.image-frame2 {
+    border: 1px solid #2a5d004a; /* Green border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 5px; /* Space between image and border */
+    height: 270px; /* Fixed height */
+    width: 130; /* Fixed width */
+    object-fit: cover;
+    background-color: white;
+
+    
+}
+
 .card-color {
     background-color: rgba(29, 110, 0, 0.218);
     background: rgba(9, 73, 0, 0.067) !important;
@@ -118,4 +132,44 @@
 
 .card{
     margin-top: 14px !important;
+}
+
+.margin1 {
+    margin: 12px;
+}
+
+.footer {
+    background-color: rgb(42, 86, 40);
+    margin-bottom: 0;
+    padding: 0;
+    height: 200px;
+}
+
+.margin0 {
+    margin-bottom: 0;
+    padding: 0;
+}
+.title1 {
+    font-family: 'Brush Script MT', !important;
+    font-size: 50px !important;
+    color: white !important;
+    margin-top: 30px;
+    margin-left: 75px;
+    text-decoration: none !important;
+}
+
+.contactus {
+    margin-top: 30px;
+}
+
+.btn-custom2 {
+            background-color: #bbd8a3 !important; 
+            border-color:#bbd8a3 !important;
+            color: white !important;
+            transition: background-color 0.15s ease-in-out !important;
+}
+.btn-custom2:hover {
+            background-color: #90d15b !important;
+            border-color: #90d15b !important;
+            color: white !important;
 }
